@@ -1,0 +1,60 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 ;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: 0.5s;
+}
+
+.meal:hover .layer{
+    top: 0;
+}
+
+.nav-menu{
+    z-index: 99;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
+
+@media only screen and ( max-width: 670px) {
+    
+    .nav-header{
+        background-color: transparent !important;
+    }
+  }
